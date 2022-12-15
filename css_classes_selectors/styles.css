@@ -1,0 +1,39 @@
+/* .error{
+    color: red;
+} */
+
+p.error{
+    color: red;
+}
+
+p.success{
+    color: green;
+}
+
+/* p.feedback{
+    border: 4px dashed brown;
+} */
+
+p.success.feedback{
+    border: 4px dashed brown;
+}
+
+/* we can also make div#content for more precision */
+
+/* #content{
+background-color:rgb(230, 235, 173);
+padding: 20px;
+} */
+div#content{
+    background-color:rgb(230, 235, 173);
+    padding: 20px;
+}
+
+/* if we make for example div p a { ... } , we will only target the a inside p inside div */
+
+/* there is a difference between div .error and div.error,
+    the first one mean take the div with error class "I am an error",
+    but the second one mean take any class error inside div */
+div .error{
+    text-decoration: underline;
+}
