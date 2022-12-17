@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    font-size: 3rem;
+    padding: 10%;
+}
+
+input, button{
+    font : inherit;
+}
+
+/* inherit is a keyword that tells the browser to use the
+font properties of the parent element. In this case, the
+body element. */
+
+p{
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; */
+    /* text-align: justify; */
+    text-indent: 2em;
+
+    line-height: 1.5;
+    /* letter-spacing: 0.1em;
+    word-spacing: 0.5em; */
+ 
+    /* font-weight: 900; */
+    /* font-style: italic; */
+    /* font-family: cursive; */
+    font-family: 'Ubuntu', sans-serif;
+
+}
+/* text-align: right is the default value for p elements. */
+/* font-weight: 400; 400 is the default value for p elements. */
+.test{
+    font-size: 1.5rem;
+}

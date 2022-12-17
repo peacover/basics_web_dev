@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+
+}
+/* the difference between border-box and content-box is that
+border-box includes the padding and border in the width and
+height of the element, while content-box does not. */
+
+.container {
+    border: 10px double red;
+    /* width: 50%; */
+    font-size: 1.5rem;
+    padding: 1.5em;
+    margin: 1.5em;
+
+    /* border: dashed red;
+    border-right: 10px solid blue;
+    border-top-color: aqua;
+    border-bottom-style: dotted; */
+
+    outline: 5px solid green;
+    /* outline-offset: 5px; */
+    outline-offset: -20px;
+
+
+}
+/* this 1.5em it depends on the font-size of the element,
+so if you change the font-size of the element, the padding and margin
+will change as well. */
+
+.circle{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    outline: 2px solid green;
+    border-radius: 50px;
+    margin: 3rem auto;
+}
+
+/* auto here means that the margin will be set to the left and right */

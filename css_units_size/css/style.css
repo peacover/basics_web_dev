@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+/* here 100vh is 100% of the viewport height which is
+the height of the browser window or the height
+of the screen if the browser is full screen  */
+h1{
+    border: 2px dashed red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+/* here 0.5em is 0.5 multiple of the parent element font-size which is 3rem */
+
+/* em depends on the parent element font-size for example if the parent
+element font-size is 20px and the em is 2em the em will be 40px */
+main{
+    font-size: 2rem;
+}
+
+/* 40ch is the width of 40 characters in the font-size of the parent element */
+p{
+    font-size: 2rem;
+    width: 40ch;
+}

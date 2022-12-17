@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    /* color:blue; */
+    /* cursor: not-allowed; */
+    color : hsl(207, 44%, 49%);
+    cursor: pointer;
+}
+
+/* pseudo classes are used to style
+links when they are in a certain state */
+
+a:visited{
+    color: purple;
+}
+
+a:hover, a:focus{
+    color: aqua;
+    color : hsl(207, 44%, 49%, 0.8);
+    background: gold;
+    /* opacity: 0.8; */
+
+}
+
+a:active{
+    color: red;
+}
+
+/* a:focus means when the link is focused on or selected
+which is when you tab through the links on a page */
+
+/* a:active means when the link is clicked */
